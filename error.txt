@@ -1,0 +1,85 @@
+Test-iPhone:~/redbox root# make
+> Making all for tweak redbox…
+==> Compiling Tweak.x (arm64)…
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+While building module 'CoreImage' imported from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:15:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:315:44: error: expected a type
+- (CIImage *)imageByApplyingCGOrientation:(CGImagePropertyOrientation)orientation NS_AVAILABLE(10_13, 11_0);
+                                           ^
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:318:54: error: expected a type
+- (CGAffineTransform)imageTransformForCGOrientation:(CGImagePropertyOrientation)orientation NS_AVAILABLE(10_13, 11_0);
+                                                     ^
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+While building module 'CoreImage' imported from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:16:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIContext.h:517:56: error: expected a type
+                                          orientation:(CGImagePropertyOrientation)orientation
+                                                       ^
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIContext.h:524:56: error: expected a type
+                                          orientation:(CGImagePropertyOrientation)orientation
+                                                       ^
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitCore.h:13:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:15:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:11:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:12:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h:11:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: fatal error: could not build module 'CoreImage'
+#import <CoreImage/CoreImage.h>
+ ~~~~~~~^
+In file included from <built-in>:1:
+/var/root/theos/Prefix.pch:20:12: fatal error: could not build module 'UIKit'
+                        #import <UIKit/UIKit.h>
+                         ~~~~~~~^
+6 errors generated.
+make[3]: *** [/var/root/theos/makefiles/instance/rules.mk:260: /var/root/redbox/.theos/obj/debug/arm64/Tweak.x.085de07c.o] Error 1
+==> Compiling Tweak.x (armv7)…
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+While building module 'CoreImage' imported from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:15:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:315:44: error: expected a type
+- (CIImage *)imageByApplyingCGOrientation:(CGImagePropertyOrientation)orientation NS_AVAILABLE(10_13, 11_0);
+                                           ^
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h:318:54: error: expected a type
+- (CGAffineTransform)imageTransformForCGOrientation:(CGImagePropertyOrientation)orientation NS_AVAILABLE(10_13, 11_0);
+                                                     ^
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+While building module 'CoreImage' imported from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h:16:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIContext.h:517:56: error: expected a type
+                                          orientation:(CGImagePropertyOrientation)orientation
+                                                       ^
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIContext.h:524:56: error: expected a type
+                                          orientation:(CGImagePropertyOrientation)orientation
+                                                       ^
+While building module 'UIKit' imported from /var/root/theos/Prefix.pch:20:
+In file included from <module-includes>:1:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitCore.h:13:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:15:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:11:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:12:
+In file included from /var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h:11:
+/var/root/theos/sdks/iPhoneOS13.2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h:13:9: fatal error: could not build module 'CoreImage'
+#import <CoreImage/CoreImage.h>
+ ~~~~~~~^
+make[2]: *** [/var/root/theos/makefiles/instance/library.mk:33: /var/root/redbox/.theos/obj/debug/arm64/redbox.dylib] Error 2
+In file included from <built-in>:1:
+/var/root/theos/Prefix.pch:20:12: fatal error: could not build module 'UIKit'
+                        #import <UIKit/UIKit.h>
+                         ~~~~~~~^
+6 errors generated.
+make[3]: *** [/var/root/theos/makefiles/instance/rules.mk:260: /var/root/redbox/.theos/obj/debug/armv7/Tweak.x.78968275.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [/var/root/theos/makefiles/instance/library.mk:33: /var/root/redbox/.theos/obj/debug/armv7/redbox.dylib] Error 2
+make[1]: *** [/var/root/theos/makefiles/instance/library.mk:24: internal-library-all_] Error 2
+make: *** [/var/root/theos/makefiles/master/rules.mk:111: redbox.all.tweak.variables] Error 2
